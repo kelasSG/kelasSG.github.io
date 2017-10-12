@@ -12,3 +12,6 @@
 .card-header{
 	text-align: center;
 }
+.jumbotron img{
+	border-radius: 10px;
+}
