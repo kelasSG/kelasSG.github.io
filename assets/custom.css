@@ -15,3 +15,22 @@
 .jumbotron img{
 	border-radius: 10px;
 }
+.footer{
+	padding: 5px;
+	text-align: center;
+}
+.footer a{
+	color: rgb(6, 9, 6);
+}
+.footer a:hover{
+	color: rgb(18, 157, 241);
+	text-decoration: none;
+}
+@media only screen
+	and (max-width: 270px)
+	and (max-width: 320px){
+	  /* For mobile phones: */
+    [class*="card"] {
+        width: 100%;
+  }
+}
